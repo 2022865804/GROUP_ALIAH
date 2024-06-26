@@ -286,9 +286,8 @@ div.desc {
         document.getElementById('next-button').addEventListener('click', function() {
             if (cart.length === 0) {
                 alert('The cart is empty.');
-            } else {
-                // Replace 'your-payment-page-url' with the actual URL of your payment page
-                window.location.href = 'payment.html';
+            } else
+                location.href = 'payment.html';
             }
         });
 
